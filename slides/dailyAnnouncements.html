@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CS 2501: 00-introduction slide set</title>
+    <meta name="description" content="Slides for a Data Structures and Algorithms Course">
+    <meta name="author" content="Mark Floryan">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="../slides/reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="../slides/reveal.js/css/theme/white.css" id="theme">
+   <!-- <link rel="stylesheet" href="../slides/css/pdr.css">-->
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="../slides/reveal.js/lib/css/zenburn.css">
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? '../slides/reveal.js/css/print/pdf.css' : '../slides/reveal.js/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+    <!--[if lt IE 9]>
+	<script src="../slides/reveal.js/lib/js/html5shiv.js"></script>
+	<![endif]-->
+    <!---->
+    <script type="text/javascript" src="../slides/js/dhtmlwindow.js"></script>
+    <script type="text/javascript" src="../slides/js/canvas.js"></script>
+    <script src="node_modules/mermaid/dist/mermaid.min.js"></script>
+    <script>
+    var config = {
+        startOnLoad:true,
+        theme:"neutral",
+        flowchart:{
+            useMaxWidth:false,
+            htmlLabels:true
+        }
+    };
+    mermaid.initialize(config);
+</script>
+    <link rel="stylesheet" href="../slides/css/dhtmlwindow.css" type="text/css">
+    
+  </head>
+
+  <body onload="canvasinit()">
+    <div id="dhtmlwindowholder"><span style="display:none"></span></div>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+
+	<section data-markdown><script type="text/template">
+&nbsp;
+## CS2501
+### Data Structures and Algorithms 1
+&nbsp;
+<center><small>[Mark Floryan](http://www.cs.virginia.edu/~mrf8t) / [mrf8t@virginia.edu](mailto:mrf8t@virginia.edu)</small></center>
+<center><small>Repository: [github.com/markfloryan/dsa1](http://github.com/markfloryan/dsa1) / [&uarr;](index.html) </small></center>
+&nbsp;
+### Daily Announcements
+</script></section>
+
+<!---------------------------------------------- -->
+
+<!-- NEW SECTION -->
+  <section> 
+
+<section data-markdown class="center"><script type="text/template">
+### Monday October 28, 2019
+</script></section>
+
+<section data-markdown class="center"><script type="text/template">
+### Monday October 28, 2019
+
+- Quizzes from last week have been released
+- This week's quiz is recursion
+- You should be wrapping up the recursion hw around now if you are staying on schedule. 
+- Today we are discussing more complicated sorting algorithms (mergesort and maybe quicksort)
+</script></section>
+
+</section>
+
+<!---------------------------------------------- -->
+
+<!-- NEW SECTION -->
+  <section> 
+
+<section data-markdown class="center"><script type="text/template">
+### Wednesday October 9, 2019
+</script></section>
+
+<section data-markdown class="center"><script type="text/template">
+### Wednesday October 9, 2019
+
+- Quizzes from last week have been released
+- All quizzes have been written now (if you'd like to look ahead)
+- Next Monday is first time two quizzes are released
+  - Linked Lists and Stacks/Queues
+- You should be done implementing Vector and working on LL and Stack/Queue
+  - Once LL is done, Stack and Queue should be pretty quick.
+- Today we are discussing amortized analysis, and starting trees/recursion
+</script></section>
+
+</section>
+
+<!---------------------------------------------- -->
+
+<!-- NEW SECTION -->
+  <section> 
+
+<section data-markdown class="center"><script type="text/template">
+### Monday September 30, 2019
+</script></section>
+
+<section data-markdown class="center"><script type="text/template">
+### Monday September 30, 2019
+
+- Quizzes are graded. Let me know if you see any issues. 
+- Quiz 4 (Vectors) will be available this week in lab
+- Module 4 (Vectors) and Module 5 (Linked Lists) officially released
+  - Module 6 (Stacks and Queues is right behind)
+- If you have not turned in everything through blackjack, you are behind!
+- Today we will discuss stacks and queues
+</script></section>
+
+</section>
+
+<!---------------------------------------------- -->
+
+<!-- NEW SECTION -->
+  <section> 
+
+<section data-markdown class="center"><script type="text/template">
+### Wednesday September 25, 2019
+</script></section>
+
+<section data-markdown class="center"><script type="text/template">
+### Wednesday September 25, 2019
+
+- Quiz screw up!! Details on what we will be doing are on next slide
+  - My sincerest apologies for this screw-up. 
+- Quiz 4 (Vectors) will be available next week in lab
+- Module 4 (Vectors) hw is officially released now
+  - Unofficial due date is next week before lab.
+- Today we will continue discussing lists, generics, etc.! 
+</script></section>
+
+<section data-markdown class="center"><script type="text/template">
+### Quiz Issues
+
+- There were no quizzes in lab on Tuesday. I see 3 solutions:
+  - Cancel this week's quizzes (I HATE this option)
+  - Adjust grading scheme (also hate this option)
+  - Provide an optional makeup time (I think this one is best)
+- Friday will be half-lecture and half-quiz.
+- I'm building in some safeguards so this shouldn't happen again.
+</script></section>
+
+</section>
+
+<!---------------------------------------------- -->
+
+<!-- NEW SECTION -->
+  <section> 
+
+<section data-markdown class="center"><script type="text/template">
+### Monday September 22, 2019
+</script></section>
+
+<section data-markdown class="center"><script type="text/template">
+### Monday September 22, 2019
+
+- Quizzes have been returned. Don't worry that your "average" looks really bad.
+- Homeworks have all been graded (except for 10'ish recent blackjacks)
+- Quiz 3 (Basic Java 3) is available in lab this week.
+- You should be close to finishing blackjack at this point. I've only seen 31 Roombas, which is not great.
+- Today we will go over how a vector works! First real data structure! 
+</script></section>
+
+</section>
+
+<!---------------------------------------------- -->
+
+<!-- NEW SECTION -->
+  <section> 
+
+<section data-markdown class="center"><script type="text/template">
+### Wednesday September 18, 2019
+</script></section>
+
+<section data-markdown class="center"><script type="text/template">
+### Wednesday September 18, 2019
+
+- Roomba code that has been submitted has been graded. Some more have come in recently and not been graded.
+  - So far we have mostly been keeping up with hw grading, will try to continue.
+- Quiz 2 is over. Any issues with how lab went this week?
+- Module 3 (Blackjack) is officially released. You should aim to do that by next lab.
+- Today we will start lists!! 
+</script></section>
+
+</section>
+
+<!---------------------------------------------- -->
+
+<!-- NEW SECTION -->
+  <section> 
+
+<section data-markdown class="center"><script type="text/template">
+### Monday September 16, 2019
+</script></section>
+
+<section data-markdown class="center"><script type="text/template">
+### Monday September 16, 2019
+
+- Quizzes have been graded. Remember a 1.5 or 2 is considered passing.
+- Quiz 2 is this week in lab. Remember you can retry quiz 1 if need be.
+- Module 3 is officially released after lecture today (we are still one lecture ahead) 
+- Today we will finish Java and start Lists 
+</script></section>
+
+</section>
+
+<!---------------------------------------------- -->
+
+<!---------------------------------------------- -->
+
+<!-- NEW SECTION -->
+  <section> 
+
+<section data-markdown class="center"><script type="text/template">
+### Monday September 9, 2019
+</script></section>
+
+<section data-markdown class="center"><script type="text/template">
+### Monday September 9, 2019
+
+- Submitted assignments have been graded
+  - If you received a 0 for power(), you probably didn't check exp=0 case. quick fix and we'll get that checked off for you (maybe do this in lab!!)
+- Don't forget first quiz in lab is this week. TAs will randomly select which questions you answer.
+  - Goal is to have those graded by Thursday evening, maybe Friday if something goes haywire
+- Module 2 is officially released. Let me know if you have any questions. 
+</script></section>
+
+</section>
+
+<!---------------------------------------------- -->
+
+<!-- NEW SECTION -->
+  <section> 
+
+<section data-markdown class="center"><script type="text/template">
+### Wednesday September 4, 2019
+</script></section>
+
+<section data-markdown class="center"><script type="text/template">
+### Wednesday September 4, 2019
+
+- I updated all Collab assignments. You have 2 resubmissions per hw (in case you submit to wrong assignment or something).
+- Calendar is up on Collab. Contains all OH and such. 
+- Grading update
+  - Any hw submitted by Fri 5pm each week will be graded by Sunday noon.
+  - Quizzes will be graded each week by Thursday evening.
+</script></section>
+
+<section data-markdown class="center"><script type="text/template">
+### Wednesday September 4, 2019 (cont'd)
+
+- After hw grade released, need to go to Chuanhao in person. Email him before-hand to let him know you are coming if you want to resubmit.
+- Quiz booklet is ready for first few weeks and is on course website.
+</script></section>
+
+  </section>
+
+<!---------------------------------------------- -->
+
+<!-- NEW SECTION -->
+  <section> 
+
+<section data-markdown class="center"><script type="text/template">
+### Monday September 2, 2019
+</script></section>
+
+<section data-markdown class="center"><script type="text/template">
+### Monday September 2, 2019
+
+- Module 1 homeworks have been released and Module 1 quiz is set for **NEXT** week in lab
+  - In general, we will always finish topic in lecture about 1 week before you take quiz is first available in lab.
+  - Homeworks are meant to be completed before lab quiz date
+- There is lab today/tomorrow. You will meet your TAs briefly and work on homeworks. If you are already caught up on everything, no need to attend this week.
+  - This is a great chance to get Eclipse set up, etc.
+</script></section>
+
+<section data-markdown class="center"><script type="text/template">
+### Monday September 2, 2019 (cont'd)
+
+- Homeworks are submitted on Collab. All assignments are up there now if you want to get started submitting early.
+- TA OH will be posted very soon. Sorry for the delay.
+</script></section>
+
+  </section>
+
+<!---------------------------------------------- -->
+
+
+
+	</section>
+
+<!---------------------------------------------- -->
+
+
+
+
+<!---------------------------------------------- -->
+
+<!-- EXTRA STUFF FOR SLIDE LIBRARY -->
+
+      </div>
+
+    </div>
+
+    <div id="calibratediv" style="display:none">
+      <div id="calibratecanvasdiv">
+        <canvas id="calibratecanvas" width="300" height="300">Your browser does not support the canvas tag</canvas>
+      </div>
+      <p style="text-align:center">Click the center of the target<br><a href="#" onClick="calibratewin.close(); return false">Close window</a></p>
+    </div>
+
+    <script src="reveal.js/lib/js/head.min.js"></script>
+    <script src="reveal.js/js/reveal.js"></script>
+    <!--<script src="js/settings.js"></script>-->
+
+    <script>
+      // More info https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: false,
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'reveal.js/plugin/search/search.js', async: true },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'https://d3js.org/d3.v4.min.js' },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true },
+          { src: 'reveal.js/plugin/mermaid/mermaid.js'}
+        ]
+      });
+    </script>
+
+  </body>
+</html>
