@@ -8,30 +8,29 @@ Below are the course homework assignments. All assignments are due the week spec
 
 INDIVIDUAL ASSIGNMENTS:
 
-| Week | Assignment (Individual) | | |
-|--------------|------------------|------------------|------------------|
-|1||||
-|2|<a href="./everyone/GameLoop.pdf">Game Loop and Sprites</a> (<a href="./code/starterCode.zip">code</a>)|||
-|3|<a href="./everyone/DisplayTreeAndAnimation.pdf">Display Trees and Animation</a> (<a href="./code/DisplayTreeAndAnimation.zip">headers</a>)|||
+| Week | Due Date | Assignment (Individual) |
+|--------------|------------------|------------------|
+|1|||
+|2|1/24|<a href="./everyone/GameLoop.pdf">Game Loop and Sprites</a> (<a href="./code/starterCode.zip">code</a>)|
+|3|1/31|<a href="./everyone/DisplayTreeAndAnimation.pdf">Display Trees and Animation</a> (<a href="./code/DisplayTreeAndAnimation.zip">headers</a>)|
 
 GROUP ASSIGNMENTS:
 
-| Week | Engine Team | SFX/Level Team | Design Team |
-|--------------|------------------|------------------|------------------|
-|4|<a href="./engineTeam/ObserverDesignPattern.pdf">Observer Design Pattern</a> (<a href="./code/ObserverDesignPattern.zip">headers</a>)|<a href="./SFXLevelTeam/ScenesAndParsing.pdf">Scenes and Parsing</a> (<a href="./code/ScenesAndParsing.zip">headers</a>)|<a href="./designTeam/OverallDesign.pdf">Overall Design</a>|
-|5||<a href="./SFXLevelTeam/cameraAndSound.pdf">Camera and Sound</a> (<a href="./sfxLevelTeam/cameraAndSound.zip">headers</a>)|Enemies and Environment|
-|6|Dev Tool||Area Design I|
-|7|Spritesheets and Controllers|Parallax and Tweens||
-|8||Camera Control and Scene Transitions|Character Programming|
+| Week | Due Date | Engine Team | SFX/Level Team | Design Team |
+|----|----|------------------|------------------|------------------|
+|4|2/7|<a href="./engineTeam/ObserverDesignPattern.pdf">Observer Design Pattern</a> (<a href="./code/ObserverDesignPattern.zip">headers</a>)|<a href="./SFXLevelTeam/ScenesAndParsing.pdf">Scenes and Parsing</a> (<a href="./code/ScenesAndParsing.zip">headers</a>)|<a href="./designTeam/OverallDesign.pdf">Overall Design</a>|
+|5|2/14||<a href="./SFXLevelTeam/cameraAndSound.pdf">Camera and Sound</a> (<a href="./sfxLevelTeam/cameraAndSound.zip">headers</a>)|Enemies and Environment|
+|6|2/21|Dev Tool||Area Design I|
+|7|2/28|Spritesheets and Controllers|Parallax and Tweens||
+|8|3/6||Camera Control and Scene Transitions|Character Programming|
 |Spring Break||||
-|9|Collision System||Enemy Programming|
-|10||UI Components|Area Design II|
-|11|Particle System|||
-|12||Environment Programming|Bosses I|
-|13|Dev Tool II|||
-|14|||Bosses II|
-|15|Menus|Adding SFX||
-|16||||
+|9|3/20|Collision System||Enemy Programming|
+|10|3/27||UI Components|Area Design II|
+|11|4/3|Particle System|||
+|12|4/10||Environment Programming|Bosses I|
+|13|4/17|Dev Tool II|||
+|14|4/24|||Bosses II|
+|15|4/29 (Wed)|Menus|Adding SFX||
 
 
 <a name="other"></a>Other Useful Stuff
