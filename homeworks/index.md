@@ -18,8 +18,8 @@ GROUP ASSIGNMENTS:
 
 | Week | Engine Team | SFX/Level Team | Design Team |
 |--------------|------------------|------------------|------------------|
-|4|<a href="./engineTeam/ObserverDesignPattern.pdf">Observer Design Pattern</a> (<a href="./code/ObserverDesignPattern.zip">headers</a>)|<a href="./sfxLevelTeam/ScenesAndParsing.pdf">Scenes and Parsing</a> (<a href="./code/ScenesAndParsing.zip">headers</a>)|<a href="./designTeam/OverallDesign.pdf">Overall Design</a>|
-|5||<a href="./sfxLevelTeam/cameraAndSound.pdf">Camera and Sound</a> (<a href="./sfxLevelTeam/cameraAndSound.zip">headers</a>)|Enemies and Environment|
+|4|<a href="./engineTeam/ObserverDesignPattern.pdf">Observer Design Pattern</a> (<a href="./code/ObserverDesignPattern.zip">headers</a>)|<a href="./SFXLevelTeam/ScenesAndParsing.pdf">Scenes and Parsing</a> (<a href="./code/ScenesAndParsing.zip">headers</a>)|<a href="./designTeam/OverallDesign.pdf">Overall Design</a>|
+|5||<a href="./SFXLevelTeam/cameraAndSound.pdf">Camera and Sound</a> (<a href="./sfxLevelTeam/cameraAndSound.zip">headers</a>)|Enemies and Environment|
 |6|Dev Tool||Area Design I|
 |7|Spritesheets and Controllers|Parallax and Tweens||
 |8||Camera Control and Scene Transitions|Character Programming|
