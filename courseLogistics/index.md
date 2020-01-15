@@ -14,8 +14,18 @@ CS4730 - Game Design Course Logistics
 <a name="TAs"></a>Teaching Assistants
 ---------------------------------------
 
-- Graduate TA:
-TBD
-
 - Undergraduate TAs:
-TBD
+	- Branden Kim  [bk2dh@virginia.edu](mailto:bk2dh@virginia.edu)
+	- Wyatt Joyner [wcj3te@virginia.edu](mailto:wcj3te@virginia.edu)
+	- Ryan Kann [rak3me@virginia.edu](mailto:rak3me@virginia.edu)
+	- Jimmy Patterson [jrp3tu@virginia.edu](mailto:jrp3tu@virginia.edu)
+
+
+<a name="TAs"></a>Office Hours
+---------------------------------------
+
+- In Thornton Stacks:
+	- Branden: Tue 11-1
+	- Wyatt: Wed 5-6:30
+	- Ryan: Tue 1:45-3:15
+	- Jimmy: Wed 1:30-3

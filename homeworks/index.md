@@ -33,7 +33,3 @@ GROUP ASSIGNMENTS:
 |15|4/29 (Wed)|Menus|Adding SFX||
 
 
-<a name="other"></a>Other Useful Stuff
----------------------------------------
-
-- [Template for reports](./WordPaperTemplate.zip) 
