@@ -24,6 +24,9 @@ CS4730 - Game Design Course Logistics
 <a name="TAs"></a>Office Hours
 ---------------------------------------
 
+- Rice 203
+	- Floryan: Mon and Wed 1-2:30pm
+	
 - In Thornton Stacks:
 	- Branden: Tue 11-1
 	- Wyatt: Wed 5-6:30
