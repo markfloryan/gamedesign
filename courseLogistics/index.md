@@ -19,6 +19,7 @@ CS4730 - Game Design Course Logistics
 	- Wyatt Joyner [wcj3te@virginia.edu](mailto:wcj3te@virginia.edu)
 	- Ryan Kann [rak3me@virginia.edu](mailto:rak3me@virginia.edu)
 	- Jimmy Patterson [jrp3tu@virginia.edu](mailto:jrp3tu@virginia.edu)
+	- Andy Mangham [adm7u@virginia.edu](mailto:adm7u@virginia.edu)
 
 
 <a name="TAs"></a>Office Hours
