@@ -21,7 +21,7 @@ GROUP ASSIGNMENTS:
 |4|2/7|<a href="./engineTeam/ObserverDesignPattern.pdf">Observer Design Pattern</a> (<a href="./code/ObserverDesignPattern.zip">headers</a>)|<a href="./SFXLevelTeam/ScenesAndParsing.pdf">Scenes and Parsing</a> (<a href="./code/ScenesAndParsing.zip">headers</a>)|<a href="./designTeam/OverallDesign.pdf">Overall Design</a>|
 |5|2/14||<a href="./SFXLevelTeam/cameraAndSound.pdf">Camera and Sound</a> (<a href="./sfxLevelTeam/cameraAndSound.zip">headers</a>)|<a href="./designTeam/EnemiesAndEnvironment.pdf">Enemies and Environment</a>|
 |6|2/21|<a href="./engineTeam/DevelopmentTool.pdf">Dev Tool</a>||<a href="./designTeam/AreaDesign1.pdf">Area Design I</a>|
-|7|2/28|Spritesheets and Controllers|Parallax and Tweens||
+|7|2/28|<a href="./engineTeam/SpriteSheetsAndControllers.pdf">Spritesheets and Controllers</a>|Parallax and Tweens||
 |8|3/6||Camera Control and Scene Transitions|Character Programming|
 |Spring Break||||
 |9|3/20|Collision System||Enemy Programming|
