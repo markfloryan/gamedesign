@@ -18,4 +18,4 @@ CS4730 - Game Design
 <a name="introduction"></a>Other
 --------------------------------------- 
 
-NONE YET
+- [Daily Announcements](./dailyAnnouncements.pptx): Lecture announcements
