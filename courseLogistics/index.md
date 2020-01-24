@@ -32,5 +32,5 @@ CS4730 - Game Design Course Logistics
 	- Branden: Tue 11-1
 	- Wyatt: Wed 5-6:30
 	- Ryan: Tue 1:45-3:15
-	- Jimmy: Wed 1:30-3
+	- Jimmy: Wed 1:00-2:30
 	- Andy: Tue 10am-12pm
