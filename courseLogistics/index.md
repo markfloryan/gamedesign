@@ -26,7 +26,7 @@ CS4730 - Game Design Course Logistics
 ---------------------------------------
 
 - Rice 203
-	- Floryan: Mon and Wed 1-2:30pm
+	- Floryan: Mon and Tue 1-2:30pm
 	
 - In Thornton Stacks:
 	- Branden: Tue 11-1
