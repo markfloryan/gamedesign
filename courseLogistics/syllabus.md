@@ -26,13 +26,13 @@ CS 4730: Game Design
 - Increase understanding of game and level design, including how visual and auditory cues contribute to teaching a player the game mechanics of the system.
 - Implement a fully playable game, including all aspects of the software lifecycle (design, implementation, testing, etc.).
 
-**Grades:** Grades are calculated using a **pass/fail** system. The course has 24 project parts (two are done individually and 22 in a group). Each homework has three grade levels: Unsatisfactory, Competency, and Satisfied. Each letter grade is associated with the number of project parts that are satisfied. A summary of the specific grade mappings can be found on the [course grading page](./grading.html)
+**Grades:** Grades are calculated using a **pass/fail** system. The course has 24 project parts (two are done individually and approximately 22 in a group). Each homework has three grade levels: Unsatisfactory, Competency, and Satisfied. Each letter grade is associated with the number of project parts that are satisfied. A summary of the specific grade mappings can be found on the [course grading page](./grading.html).
 
 **Special Circumstances:** Students with special circumstances (athletics, extra time required on exams, final exam conflicts, SDAC considerations, etc.) need to let me know during the **first week of class**.
 
 **Textbooks:** There is no required textbook, however you are required to read "Reality is Broken" by Jane McGonigal by the end of the semester.
 
-**Homeworks:** The homeworks for the course are all posted on the course website and are self-explanatory. All assignments will be submitted through Collab under the assignments tool.
+**Homeworks:** The homeworks for the course are all posted on the course website and are self-explanatory. All assignments will be submitted through Collab under the assignments tool. Homeworks that receive a competent score can be resubmitted and increased to a satsfied score. However, homeworks that are not submitted on time with at least a competent score can not be resubmitted.
 
 **Final Exam:** Our final exam will be a short multiple choice exam. If you earn above a 60 percent on this exam, your grade rises one half letter grade. If your grade is above 80 percent, two half letter grades.
 
