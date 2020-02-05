@@ -18,18 +18,18 @@ GROUP ASSIGNMENTS:
 
 | Week | Due Date | Engine Team | SFX/Level Team | Design Team |
 |----|----|------------------|------------------|------------------|
-|4|2/7|<a href="./engineTeam/ObserverDesignPattern.pdf">Observer Design Pattern</a> (<a href="./code/ObserverDesignPattern.zip">headers</a>)|<a href="./SFXLevelTeam/ScenesAndParsing.pdf">Scenes and Parsing</a> (<a href="./code/ScenesAndParsing.zip">headers</a>)|<a href="./designTeam/OverallDesign.pdf">Overall Design</a>|
-|5|2/14||<a href="./SFXLevelTeam/cameraAndSound.pdf">Camera and Sound</a> (<a href="./sfxLevelTeam/cameraAndSound.zip">headers</a>)|<a href="./designTeam/EnemiesAndEnvironment.pdf">Enemies and Environment</a>|
-|6|2/21|<a href="./engineTeam/DevelopmentTool.pdf">Dev Tool</a>||<a href="./designTeam/AreaDesign1.pdf">Area Design I</a>|
-|7|2/28|<a href="./engineTeam/SpriteSheetsAndControllers.pdf">Spritesheets and Controllers</a>|<a href="./SFXLevelTeam/parallaxAndTweens.pdf">Parallax and Tweens</a>||
-|8|3/6||Camera Control and Scene Transitions|Character Programming|
-|Spring Break||||
-|9|3/20|Collision System||Enemy Programming|
-|10|3/27||UI Components|Area Design II|
-|11|4/3|Particle System|||
-|12|4/10||Environment Programming|Bosses I|
-|13|4/17|Dev Tool II|||
-|14|4/24|||Bosses II|
-|15|4/29 (Wed)|Menus|Adding SFX||
+|4|2/7||||
+|5|2/14|<a href="./engineTeam/ObserverDesignPattern.pdf">Observer Design Pattern</a> (<a href="./code/ObserverDesignPattern.zip">headers</a>)|<a href="./SFXLevelTeam/ScenesAndParsing.pdf">Scenes and Parsing</a> (<a href="./code/ScenesAndParsing.zip">headers</a>)|<a href="./designTeam/OverallDesign.pdf">Overall Design</a>|
+|6|2/21||<a href="./SFXLevelTeam/cameraAndSound.pdf">Camera and Sound</a> (<a href="./sfxLevelTeam/cameraAndSound.zip">headers</a>)|<a href="./designTeam/EnemiesAndEnvironment.pdf">Enemies and Environment</a>|
+|7|2/28|<a href="./engineTeam/DevelopmentTool.pdf">Dev Tool</a>||<a href="./designTeam/AreaDesign1.pdf">Area Design I</a>|
+|8|3/6|<a href="./engineTeam/SpriteSheetsAndControllers.pdf">Spritesheets and Controllers</a>|<a href="./SFXLevelTeam/parallaxAndTweens.pdf">Parallax and Tweens</a>||
+|9||SPRING BREAK|SPRING BREAK|SPRING BREAK|
+|10|3/20||Scene Transitions|Character Programming|
+|11|3/27|Collision System|UI Components|Enemy Programming|
+|12|4/3|||Area Design II|
+|13|4/10|Particle System|Environment Programming||
+|14|4/17|Dev Tool II||Bosses I|
+|15|4/24||||
+|16|4/29|Menus|SFX|Bosses II|
 
 
