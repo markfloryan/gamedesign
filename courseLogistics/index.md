@@ -29,7 +29,7 @@ CS4730 - Game Design Course Logistics
 	- Floryan: Mon and Tue 1-2:30pm
 	
 - In Thornton Stacks:
-	- Branden: Tue 11-1
+	- Branden: Sun 3:30-6; Wed 12-2
 	- Wyatt: Wed 5-6:30
 	- Ryan: Tue 1:45-3:15
 	- Jimmy: Wed 1:00-2:30
