@@ -13,7 +13,9 @@ CS4730 - Game Design
 - [What is a game?](./WhatIsAGame.pptx): Introduction to what makes a game a game.
 - [Enemy and NPC Design](./EnemyDesign.pptx): Design of Enemies and NPCs in games.
 - [Character Design](./CharacterDesign.pptx): Design of controllable characters in games.
-
+- [Tweening](./Tweening.pptx): Simple tween animations through code
+- [MDA](./MDA.pptx): Mechanics, Dynamics and Aesthetics in games.
+	- [Reading on MDA](../readings/MDA.pdf)
 
 <a name="introduction"></a>Other
 --------------------------------------- 
