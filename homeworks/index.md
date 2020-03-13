@@ -24,11 +24,11 @@ GROUP ASSIGNMENTS:
 |7|2/28|<a href="./engineTeam/DevelopmentTool.pdf">Dev Tool</a>||<a href="./designTeam/AreaDesign1.pdf">Area Design I</a>|
 |8|3/6|<a href="./engineTeam/SpriteSheetsAndControllers.pdf">Spritesheets and Controllers</a>|<a href="./SFXLevelTeam/parallaxAndTweens.pdf">Parallax and Tweens</a>||
 |9||SPRING BREAK|SPRING BREAK|SPRING BREAK|
-|10|3/20||Scene Transitions|Character Programming|
-|11|3/27|Collision System|UI Components|Enemy Programming|
-|12|4/3|||Area Design II|
-|13|4/10|Particle System|Environment Programming||
-|14|4/17|Dev Tool II||Bosses I|
+|10|3/20||||
+|11|3/27|<a href="./engineTeam/CollisionSystem.pdf">Collision System</a> (<a href="./engineTeam/CollisionSystem.h">headers</a>)|<a href="./SFXLevelTeam/SceneTransitions.pdf">Scene Transitions</a>|<a href="./designTeam/CharacterProgramming.pdf">Character Programming</a> (<a href="./designTeam/Player.zip">headers</a>)|
+|12|4/3||UI Components|Enemy Programming|
+|13|4/10|Particle System||Area Design II|
+|14|4/17|Dev Tool II|Environment Programming|Bosses I|
 |15|4/24||||
 |16|4/29|Menus|SFX|Bosses II|
 
