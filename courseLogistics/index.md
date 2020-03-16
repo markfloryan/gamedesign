@@ -25,10 +25,10 @@ CS4730 - Game Design Course Logistics
 <a name="TAs"></a>Office Hours
 ---------------------------------------
 
-- Rice 203
-	- Floryan: Mon and Tue 1-2:30pm
+- Rice 203 (**EDIT: OH held on Zoom. See link on Collab page**)
+	- Floryan: Mon and Tue 12-1:00pm
 	
-- In Thornton Stacks:
+- In Thornton Stacks (**EDIT: OH held on Zoon. See link on Collab page**):
 	- Branden: Sun 3:30-6; Wed 12-2
 	- Wyatt: Wed 5-6:30
 	- Ryan: Tue 1:45-3:15
