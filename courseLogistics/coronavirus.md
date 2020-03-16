@@ -1,4 +1,4 @@
-CS4730 - Information on Coronovirus and Online Course Changes
+CS4730 - Information on Coronavirus and Online Course Changes
 ===============================
 
 [Main Logistics Page](index.html) ([md](index.md))
