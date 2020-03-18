@@ -26,7 +26,7 @@ GROUP ASSIGNMENTS:
 |9||SPRING BREAK|SPRING BREAK|SPRING BREAK|
 |10|3/20||||
 |11|3/27|<a href="./engineTeam/CollisionSystem.pdf">Collision System</a> (<a href="./engineTeam/CollisionSystem.h">headers</a>)|<a href="./SFXLevelTeam/SceneTransitions.pdf">Scene Transitions</a>|<a href="./designTeam/CharacterProgramming.pdf">Character Programming</a> (<a href="./designTeam/Player.zip">headers</a>)|
-|12|4/3||UI Components|Enemy Programming|
+|12|4/3||<a href="./SFXLevelTeam/UIComponents.pdf">UI Components</a>|<a href="./designTeam/EnemyProgramming.pdf">Enemy Programming</a> (<a href="./designTeam/Enemy.cpp">Enemy Example</a>)|
 |13|4/10|Particle System||Area Design II|
 |14|4/17|Dev Tool II|Environment Programming|Bosses I|
 |15|4/24||||
