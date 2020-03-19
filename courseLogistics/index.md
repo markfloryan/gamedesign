@@ -29,7 +29,7 @@ CS4730 - Game Design Course Logistics
 ---------------------------------------
 
 - Rice 203 (**EDIT: OH held on Zoom. See link on Collab page**)
-	- Floryan: Mon and Tue 12-1:00pm
+	- Floryan: Mon and Wed 11:30-12:30pm
 	
 - In Thornton Stacks (**EDIT: OH held on Zoon. See link on Collab page**):
 	- Branden: Sun 3:30-6; Wed 12-2
