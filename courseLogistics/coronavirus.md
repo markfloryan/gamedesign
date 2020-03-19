@@ -43,8 +43,8 @@ The breakdown of games, TAs, and meeting times is shown below.
 | Open Note | Thursdays, 12:30-1:00 | Wyatt |
 | The Balance | Thursdays, 2:00-2:30 | Ryan |
 | Rebound | Thursdays, 2:45-1:15 | Ryan |
-| The Gunslinger | Thursdays, 12:30-1:00 | Brandon |
-| Indiana Jones | Thursdays, 1:15-1:45 | Brandon |
+| The Gunslinger | Thursdays, 12:30-1:00 | Branden |
+| Indiana Jones | Thursdays, 1:15-1:45 | Branden |
 | Untitle Ghost Game | Thursdays, 12:30-1:00 | Andy |
 | Hell or Highwater | Thursdays, 2:00-2:30 | Carrington |
 
