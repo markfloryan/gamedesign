@@ -16,6 +16,8 @@ CS4730 - Game Design
 - [Tweening](./Tweening.pptx): Simple tween animations through code
 - [MDA](./MDA.pptx): Mechanics, Dynamics and Aesthetics in games.
 	- [Reading on MDA](../readings/MDA.pdf)
+- [Level Design](./LevelDesign.pptx): Designing levels and tutorials.
+- [Collision Detection](./CollisionDetection.pptx): Detecting and resolving collisions in games.
 
 <a name="introduction"></a>Other
 --------------------------------------- 
