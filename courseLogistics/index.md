@@ -37,3 +37,12 @@ CS4730 - Game Design Course Logistics
 	- Ryan: Tue 1:45-3:15
 	- Jimmy: Wed 1:00-2:30
 	- Andy: Tue 10am-12pm
+
+
+<a name="TAs"></a>Announcements
+---------------------------------------
+
+- **Monday, March 23**
+	- Grades are now pass/fail with an opt-out system. Check out [Grading](./grading.html) page for letter grades. Any grade C- or higher will be a pass.
+	- First real lab will be online on Thursday. Attendance will be taken.
+	- There WILL still be a final game expo, in the form of an online stream of each game with an expert judge.
