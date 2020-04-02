@@ -28,8 +28,8 @@ GROUP ASSIGNMENTS:
 |11|3/27|<a href="./engineTeam/CollisionSystem.pdf">Collision System</a> (<a href="./engineTeam/CollisionSystem.h">headers</a>)|<a href="./SFXLevelTeam/SceneTransitions.pdf">Scene Transitions</a>|<a href="./designTeam/CharacterProgramming.pdf">Character Programming</a> (<a href="./designTeam/Player.zip">headers</a>)|
 |12|4/3||<a href="./SFXLevelTeam/UIComponents.pdf">UI Components</a>|<a href="./designTeam/EnemyProgramming.pdf">Enemy Programming</a> (<a href="./designTeam/Enemy.cpp">Enemy Example</a>)|
 |13|4/10|<a href="./engineTeam/ParticleSystem.pdf">Particle System</a>||<a href="./designTeam/AreaDesign2.pdf">Area Design II</a>|
-|14|4/17|<a href="./engineTeam/DevelopmentTool2.pdf">Dev Tool II</a>|Environment Programming|Bosses I|
+|14|4/17|<a href="./engineTeam/DevelopmentTool2.pdf">Dev Tool II</a>|<a href="./SFXLevelTeam/EnvironmentProgramming.pdf">Environment Programming</a>|Bosses I|
 |15|4/24||||
-|16|4/29|Menus|SFX|Bosses II|
+|16|4/29|Menus|Polish|Bosses II|
 
 
