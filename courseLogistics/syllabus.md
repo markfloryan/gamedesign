@@ -3,15 +3,15 @@ CS 4730: Game Design
 
 [Main Logistics Page](./index.html)
 
-## Spring 2020
+## Fall 2020
 
-### Instructors ###
+### Instructor ###
 
 - [Mark Floryan](https://www.cs.virginia.edu/~mrf8t) / [mrf8t@virginia.edu](mailto:mrf8t@virginia.edu).  Office: Rice Hall, room 203.  Office hours are TBD
 
 ### Course Info ###
 
-- Lecture: M/W 11:00-11:50, Olsson Hall 120
+- Lecture: Tu/Th 11:00-12:15, Olsson Hall 120
 - TAs and their office hours will be posted on the course Google Calendar (which is linked to via Collab); all office hours start the Sunday after classes start
 
 **Course Description:** Introduces the development and design of modern video games. Includes the description and implementation of a 2-dimensional game engine (including sprite graphics, linear transformations, display trees, etc). Introduces concepts in video game design, including designing for teaching game mechanics, the distinction between mechanics, dynamics, and aesthetics, and pacing through levels / level design. Students complete the implementation of their game engine and then proceed to build a fully playable game in the engine they have created.
