@@ -11,10 +11,87 @@
 <body>
 <h1 id="cs4730---hw-2-playground">CS4730 - HW 2: Playground</h1>
 <h2 id="background"><a name="background"></a>Background</h2>
-<p>Unity info (if applicable) and other background needed for this hw</p>
+<p>https://learn.unity.com/</p>
 <h2 id="required-features"><a name="required"></a>Required Features</h2>
-<p>Description / tutorial for required features</p>
+<ol style="list-style-type: decimal">
+<li>Tutorials (20 points)</li>
+</ol>
+<ul>
+<li>in Unity Hub’s Learn tab, complete one of the basic microgames, Beginner Scripting, and Intermediate Scripting</li>
+<li>Add an image to the repository showing proof of completion of each of these.</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Playground (10 points)</li>
+</ol>
+<ul>
+<li>Open the <code>Playground</code> scene located in <code>Assets/Scenes/Playground.unity</code></li>
+<li>Fill it with a variety of GameObjects</li>
+<li>Mess around with the objects Transform values</li>
+<li>Have one of the object's Transforms be controllable by the player via the <code>PlayerMove.cs</code> script</li>
+<li>WASD - Up Left Down Right translation</li>
+<li>Q E - Scale in and out</li>
+<li>Z X - Rotate counterclockwise and clockwise</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>Solar System I (20 points)</li>
+</ol>
+<ul>
+<li>Open the <code>Solar System</code> scene</li>
+<li>Utilizing the provided assets, the transform hierarchy, and the <code>CelestialBody.cs</code> script, create a solar system model with planets orbiting the sun, and moons orbiting those planets.</li>
+</ul>
 <h2 id="optional-features"><a name="optional"></a>Optional Features</h2>
+<ol style="list-style-type: decimal">
+<li>Playground Shenanigans</li>
+</ol>
+<ul>
+<li>Normalized movement (5 points)</li>
+<li>Normalize the translation in <code>PlayerMove.cs</code> to never exceed a magnitude of 1.</li>
+<li>In other words, moving diagonally should not move the GameObject faster.</li>
+<li>Canceling Inputs (5 points)</li>
+<li>W+S or A+D or W+A+S+D = no translation</li>
+<li>Q+E = no rotation</li>
+<li>Z+X = no scaling</li>
+<li>Dancing Disco Banana (10 points)</li>
+<li>Make a dancing disco banana utilizing the appropriate Prefab</li>
+<li>Create a new C# script component on the prefab called <code>DancingBanana.cs</code></li>
+<li>Nyan Cat (5 points)</li>
+<li>Make the Nyan Cat play the Nyan Cat song on repeat utilizing the appropriate Prefab.</li>
+<li>Colorful Characters (5 points)</li>
+<li>Modify <code>PlayerMove.cs</code> to include new controls for controlling the color of the GameObject's sprite.
+<ul>
+<li>R = red channel--, T = red channel++</li>
+<li>G = green channel--, H = green channel++</li>
+<li>B = blue channel--, N = blue channel++</li>
+<li>C = alpha--, V = alpha++</li>
+</ul></li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Solar System II</li>
+</ol>
+<ul>
+<li>Accurate Model (10 points)</li>
+<li>Solar system is somewhat accurate to our own solar system in terms of number of planets, year and day rotations, and number of moons.</li>
+<li>Elliptical orbits (10 points)</li>
+<li>Solar System Physics I (20 points)</li>
+<li>Create a new scene called <code>Solar System Physics</code></li>
+<li>Instead of using basic rotation and translations for orbits, set up a basic physics system, and a script handling initial velocities, and an acceleration towards the orbiting body (sun for planets, planet for moons)</li>
+<li>You must use the proper gravitational force equation
+<ul>
+<li>F<sub>orbiting</sub> = F<sub>orbited</sub> = G * m<sub>orbiting</sub>m<sub>orbited</sub>/r<sub>orbit</sub><sup>2</sup></li>
+<li><INSERT EQUATION PICTURE HERE></li>
+<li>Experiment with different values of G to get you the result you want.</li>
+</ul></li>
+<li>Solar System Physics II (20 points)</li>
+<li>Create a new script called <code>SolarSystemManager.cs</code> and randomly generate the sun, planets, and (optionally) moons.
+<ul>
+<li>Seed the random number generation and find a seed you want us to look at and grade. (We will test other ones to ensure it properly randomizes.)</li>
+<li>Give each planet a random density by randomizing mass and radius within reason</li>
+<li>You can assume/ensure the sun has infinite mass.</li>
+<li>Handle collisions by having planets collide into one bigger planet</li>
+<li>D<sub>new</sub>=(m<sub>1</sub>/(m<sub>1</sub>+m<sub>2</sub>))D<sub>1</sub> + (m<sub>2</sub>/(m<sub>1</sub>+m<sub>2</sub>))D<sub>2</sub></li>
+<li>m<sub>new</sub>=m1+m2</li>
+</ul></li>
+</ul>
 <p>Description / tutorial for optional features</p>
 </body>
 </html>
