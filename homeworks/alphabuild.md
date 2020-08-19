@@ -26,5 +26,5 @@ The graders will be checking that the following requirements are met for your ga
 
 3. **Start Screen**: Your game needs to have some kind of start screen. The player should not be simply dropped into the middle of gameplay right away.
 
-4. **Animations / Simple Effects**: All animations / basic effects should be implemented. this includes things like animations of playable characters and NPCs, simple effects needed for your primary mechanics (e.g., light effect for a mechanic based on lighting up platforms), 
+4. **Animations / Simple Effects**: All animations / basic effects should be implemented. this includes animations of playable characters / important NPCs and simple effects needed for your primary mechanics (e.g., light effect for a mechanic based on lighting up platforms). This does **NOT** include polish effects like extra animations, particle effects, animating static background objects, etc.
 
