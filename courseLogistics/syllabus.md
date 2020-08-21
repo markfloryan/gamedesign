@@ -3,16 +3,17 @@ CS 4730: Game Design
 
 [Main Logistics Page](./index.html)
 
-## Spring 2020
+## Fall 2020
 
-### Instructors ###
+### Instructor ###
 
 - [Mark Floryan](https://www.cs.virginia.edu/~mrf8t) / [mrf8t@virginia.edu](mailto:mrf8t@virginia.edu).  Office: Rice Hall, room 203.  Office hours are TBD
 
 ### Course Info ###
 
-- Lecture: M/W 11:00-11:50, Olsson Hall 120
-- TAs and their office hours will be posted on the course Google Calendar (which is linked to via Collab); all office hours start the Sunday after classes start
+- Lecture: Tu/Th 11:00-12:15
+	- Lectures will be held on Zoom (see Collab for links)
+- TAs and their office hours will be posted on the course Google Calendar (see course webpage and/or Collab); all office hours start the Sunday after classes start.
 
 **Course Description:** Introduces the development and design of modern video games. Includes the description and implementation of a 2-dimensional game engine (including sprite graphics, linear transformations, display trees, etc). Introduces concepts in video game design, including designing for teaching game mechanics, the distinction between mechanics, dynamics, and aesthetics, and pacing through levels / level design. Students complete the implementation of their game engine and then proceed to build a fully playable game in the engine they have created.
 
@@ -26,23 +27,23 @@ CS 4730: Game Design
 - Increase understanding of game and level design, including how visual and auditory cues contribute to teaching a player the game mechanics of the system.
 - Implement a fully playable game, including all aspects of the software lifecycle (design, implementation, testing, etc.).
 
-**Grades:** Grades are calculated using a **pass/fail** system. The course has 24 project parts (two are done individually and approximately 22 in a group). Each homework has three grade levels: Unsatisfactory, Competency, and Satisfied. Each letter grade is associated with the number of project parts that are satisfied. A summary of the specific grade mappings can be found on the [course grading page](./grading.html).
+**Grades:** Grades are calculated using a **pass/fail** system. There are three types of assignments: individual required, individual optional, and group project. Each assignments is pass/fail and final grades are determined based on the amount of work completed. A summary of the specific grade mappings can be found on the [course grading page](./grading.html).
 
 **Special Circumstances:** Students with special circumstances (athletics, extra time required on exams, final exam conflicts, SDAC considerations, etc.) need to let me know during the **first week of class**.
 
 **Textbooks:** There is no required textbook, however you are required to read "Reality is Broken" by Jane McGonigal by the end of the semester.
 
-**Homeworks:** The homeworks for the course are all posted on the course website and are self-explanatory. All assignments will be submitted through Collab under the assignments tool. Homeworks that receive a competent score can be resubmitted and increased to a satsfied score. However, homeworks that are not submitted on time with at least a competent score can not be resubmitted.
+**Homeworks:** The homeworks for the course are all posted on the course website and are self-explanatory. Homework deadlines depend on the type of assignment. See the [homeworks page](../homeworks/index.html) for more details.
 
 **Final Exam:** Our final exam will be a short multiple choice exam. If you earn above a 60 percent on this exam, your grade rises one half letter grade. If your grade is above 80 percent, two half letter grades.
 
 **Computing resources:** There are two specific computer resources needed for this course:
 
-- You need to have a working computer that can run C++ and you'll need to install SDL2 (instructions for this can be found online). Any modern laptop or desktop will have no problem running these programming languages.
+- You need to have a working computer that can run Unity. Any modern laptop or desktop will have no problem running this.
 
-**Attendance:** Attendance in lecture is required. During lecture names will be selected at random for attendance. If your name is selected and you are not present, one of your assignment grades will be demoted one grade level.
+**Attendance:** Attendance in lecture is not required, but is highly recommended.
 
-**Recording Lectures:** You may NOT record my lectures. University policy states that this is not allowed without my consent.
+**Recording Lectures:** You may NOT record my lectures yourself. University policy states that this is not allowed without my consent. I will record the lectures and post them for your convenience.
 
 **Professionalism:** We are all adults, and should act like such.  Acting in an unprofessional manner that disrupts the class will first incur a stern talking-to.  After that, a grade penalty may be assessed.  Examples include: disrupting class, trolling people on Piazza, etc.  This is meant to keep people from repeatedly disrupting class; we aren't trying to be super strict on this.  And yes, a warning will first be given prior to any other action.
 

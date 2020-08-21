@@ -6,7 +6,7 @@ CS4730 - Game Design
 <a name="introduction"></a>Introduction
 ---------------------------------------
 
-The repository contains content for CS4730 - Game Design at [ the University of Virginia](https://virginia.edu).
+The repository contains content for CS4730 - Game Design at [ the University of Virginia](https://virginia.edu). This is a fully online course due to the continuing Covid-19 pandemic. The course will consist of online lectures (via Zoom), several homework assignments (to learn and use the [Unity Game Engine](https://www.unity.com)), and a group project developing a fully playable game.
 
 
 <a name="contents"></a>Repository Contents
@@ -16,8 +16,8 @@ The repository contains content for CS4730 - Game Design at [ the University of 
 this online at github.com -- you will need to clone (download) the
 repository first**
 
-- [Course Logistics](courseLogistics/index.html): The syllabus, introductory slide deck, etc.
-- [Homeworks](homeworks/index.html) ([md](homeworks/index.md)): The homeworks represents parts of the large group project we will be doing. 
+- [Course Logistics](courseLogistics/index.html): The syllabus, introductory slide deck, grading policy, course schedule, etc.
+- [Homeworks](homeworks/index.html) ([md](homeworks/index.md)): The homeworks for the course, along with due dates and related things.
 - [Slides](slides/index.html) ([md](slides/index.md)): Contains the slides used in the course.
 
 
