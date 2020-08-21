@@ -261,8 +261,8 @@ iconv-lite@0.4:
     safer-buffer ">= 2.1.2 < 3"
 
 lodash@^4.17.5:
-  version "4.17.10"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
+  version "4.17.20"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
 
 mermaid@^8.0.0-rc.8:
   version "8.0.0-rc.8"
