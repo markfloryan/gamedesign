@@ -23,13 +23,13 @@ The due dates for assignments are different depending on the type of assignment.
 - [HW 2: Playground / Solar System](./playground.html): Play around with Unity and make a couple of small demos showing off your new skills.
 	- **Recommended Due Date:** Thursday, October 8 at 11:59pm
 
-- [HW 3: Animation](./animation.html): More Unity. Let's play with animations character control.
+- HW 3: Animation: More Unity. Let's play with animations character control.
 	- **Recommended Due Date:** Thursday, October 15 at 11:59pm
 
-- [HW 4: Cameras](./camera.html): Controlling cameras, parallaxing layers, and related features.
+- HW 4: Cameras: Controlling cameras, parallaxing layers, and related features.
 	- **Recommended Due Date:** Thursday, October 22 at 11:59pm
 
-- [HW 5: Events and UI](./events.html): Using events in Unity and building UI elements. 
+- HW 5: Events and UI: Using events in Unity and building UI elements. 
 	- **Recommended Due Date:** Thursday, October 29 at 11:59pm
 
 - All of these assignments have a hard deadline of **October 31, 2020 at 11:59pm**. No submissions will be accepted after that time. However, if you submit assignments early, you will receive feedback on them which can be fixed and resubmitted. So it is in your interest to get your work done early.
