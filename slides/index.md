@@ -1,25 +1,20 @@
 CS4730 - Game Design
 ===============================
 
+<a name="introduction"></a>Course Introduction Slides
+--------------------------------------- 
+
+- [Introduction to Course](./00-courseIntro.pptx): Introduction to the course, grading structure, etc.
+
+
 <a name="introduction"></a>Slides
 --------------------------------------- 
 
+More slides will appear here throughout the semester
 
-- [Introduction to Course](./00-courseIntro.pptx): Introduction to the course, grading structure, etc.
-- [Game Architecture and SDL2](./GameArchitecture.pptx): Overview of game loop and SDL2
-- [Sprites](./Sprites.pptx): Overview of sprites, affine transforms, spritesheets, etc.
-- [Display Hierarchy](./DisplayHierarchy.pptx): Display trees and related challenges
-- [Observer Pattern](./ObserverDesignPattern.pptx): Observer pattern and relevance to games.
-- [What is a game?](./WhatIsAGame.pptx): Introduction to what makes a game a game.
-- [Enemy and NPC Design](./EnemyDesign.pptx): Design of Enemies and NPCs in games.
-- [Character Design](./CharacterDesign.pptx): Design of controllable characters in games.
-- [Tweening](./Tweening.pptx): Simple tween animations through code
-- [MDA](./MDA.pptx): Mechanics, Dynamics and Aesthetics in games.
-	- [Reading on MDA](../readings/MDA.pdf)
-- [Level Design](./LevelDesign.pptx): Designing levels and tutorials.
-- [Collision Detection](./CollisionDetection.pptx): Detecting and resolving collisions in games.
 
 <a name="introduction"></a>Other
 --------------------------------------- 
 
 - [Daily Announcements](./dailyAnnouncements.pptx): Lecture announcements
+
