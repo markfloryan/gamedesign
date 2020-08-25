@@ -10,11 +10,12 @@ CS4730 - Game Design
 <a name="introduction"></a>Slides
 --------------------------------------- 
 
-More slides will appear here throughout the semester
+- [What is a game?](./WhatIsAGame.pptx): What is a game? What are the defining features of games? Let's think about this and a few related issues.
+- ...More coming soon.
 
 
 <a name="introduction"></a>Other
 --------------------------------------- 
 
-- [Daily Announcements](./dailyAnnouncements.pptx): Lecture announcements
+- [Daily Announcements](./dailyAnnouncements.pptx): Lecture announcements will appear here as they build up during the semester.
 
