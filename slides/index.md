@@ -11,6 +11,7 @@ CS4730 - Game Design
 --------------------------------------- 
 
 - [What is a game?](./WhatIsAGame.pptx): What is a game? What are the defining features of games? Let's think about this and a few related issues.
+- [History of Games](./HistoryOfGames.pptx): A brief history of gaming from the 1970s through today. A brief discussion of how the design of games has changed over the years.
 - ...More coming soon.
 
 

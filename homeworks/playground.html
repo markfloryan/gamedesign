@@ -1,19 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
-  <meta name="generator" content="pandoc" />
-  <title>CS4730 - HW 2: Playground</title>
-  <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" href="../markdown.css" type="text/css" />
-</head>
-<body>
 <h1 id="cs4730---hw-2-playground">CS4730 - HW 2: Playground</h1>
 <h2 id="overview"><a name="background"></a>Overview</h2>
 <p>For this assignment, we will start to learn about how to use <a href="https://unity.com/">Unity</a> and see how <a href="https://unity.com/">Unity</a> handles simple game development tasks like Sprites, transforms, player input, and the display hierarchy. The rest of your assignments will be done using <a href="https://unity.com/">Unity</a>, which is a very popular cross-platform game engine.</p>
 <p>To investigate these things, you will go through the following three activites:</p>
-<ol style="list-style-type: decimal">
+<ol type="1">
 <li><p>You will go through some <a href="https://learn.unity.com/">Unity Tutorials</a> to learn the basics of the engine.</p></li>
 <li><p>You will create a very simple <em>playground scene</em> that shows how Unity handles game objects, transforms, and player input.</p></li>
 <li><p>You will create a <em>solar system</em> simulator to practice your scripting, and explore how Unity handles display hiearchies.</p></li>
@@ -21,21 +10,21 @@
 <h2 id="preparation-download-unity-and-get-the-starter-code"><a name="background"></a>Preparation: Download Unity and get the starter code</h2>
 <p>As stated earlier, you will be using <a href="https://unity.com/">Unity</a> for the remainder of the assignments. Unity is a popular cross-platform game engine that supports both 2D and 3D game development. We will mostly focus on 2D development in this class, but all of our lessons will translate to 3D quite easily.</p>
 <p>To get started, go to the <a href="https://store.unity.com/#plans-individual">Unity Store</a> and download a free version of the program. We went to the <em>individual</em> tab and used the <em>personal version</em>, though you can select the <em>student version</em> if you wish. We used <strong>version 2019.3.14f1</strong> when creating the assignments.</p>
-<p>Once Unity is installed, you'll need to get the starter code from the assignment on our <a href="https://classroom.github.com/classrooms/68703978-cs-4730-game-design-fall-2020">Github classroom</a>. You should be able to grab the starter code by visiting <a href="https://classroom.github.com/a/jI8iTx_6">this URL</a>. This should setup your repository. When you are ready for your assignment to be graded, simply push your code to that repository for the TA to grade.</p>
+<p>Once Unity is installed, you’ll need to get the starter code from the assignment on our <a href="https://classroom.github.com/classrooms/68703978-cs-4730-game-design-fall-2020">Github classroom</a>. You should be able to grab the starter code by visiting <a href="https://classroom.github.com/a/jI8iTx_6">this URL</a>. This should setup your repository. When you are ready for your assignment to be graded, simply push your code to that repository for the TA to grade.</p>
 <h2 id="required-features-3-points-33-required-to-pass"><a name="required"></a>Required Features (3 points; 3/3 required to pass)</h2>
 <p>This assignment is made up of three individual tasks. Each one must be completed for the entire assignment to pass.</p>
-<ol style="list-style-type: decimal">
+<ol type="1">
 <li><strong>Tutorials</strong>: Unity provides many <a href="https://learn.unity.com/">tutorial</a> on the complicated engine. Start by completing three short tutorials.
 <ul>
 <li>Complete ONE of the basic microgame tutorials: You can choose the <a href="https://learn.unity.com/project/2d-platformer-template?courseId=5c59cf22edbc2a001f59aa5d">Platformer Microgame</a>, the <a href="https://learn.unity.com/project/fps-template?courseId=5c59cf22edbc2a001f59aa5d">FPS Microgame</a>, or the <a href="https://learn.unity.com/project/karting-template?courseId=5c59cf22edbc2a001f59aa5d">Karting Microgame</a>.</li>
 <li>When you are done, push images of the completed tutorials to your repository (the rest is on your honor).</li>
 </ul></li>
-<li><strong>Playground</strong>: This simple scene will give you time to practice with Unity's transforms, and simple user input.
+<li><strong>Playground</strong>: This simple scene will give you time to practice with Unity’s transforms, and simple user input.
 <ul>
 <li>Open the <code>Playground</code> scene located in <code>Assets/Scenes/Playground.unity</code></li>
 <li>Fill it with a variety of GameObjects. Sprites are provided to you with the project, so just pick some that you like.</li>
 <li>Mess around with the objects Transform values so that some objects are rotated, large, small, etc. There should be a variety of objects that have been tranformed in various ways.</li>
-<li>Have one of the object's Transforms be controllable by the player via the <code>PlayerMove.cs</code> script. The controls should be:
+<li>Have one of the object’s Transforms be controllable by the player via the <code>PlayerMove.cs</code> script. The controls should be:
 <ul>
 <li><em>WASD</em>: Up Left Down Right translation</li>
 <li><em>Q E</em>: Scale in and out</li>
@@ -55,7 +44,7 @@
 </ol>
 <h2 id="optional-features"><a name="optional"></a>Optional Features</h2>
 <p>There are several optional features that can be added to this assignment for optional points.</p>
-<ol style="list-style-type: decimal">
+<ol type="1">
 <li><strong>Playground Shenanigans</strong>
 <ul>
 <li>Normalized movement (1 point)
@@ -80,12 +69,12 @@
 </ul></li>
 <li>Colorful Characters (1 point)
 <ul>
-<li>Modify <code>PlayerMove.cs</code> to include new controls for controlling the color of the GameObject's sprite.
+<li>Modify <code>PlayerMove.cs</code> to include new controls for controlling the color of the GameObject’s sprite.
 <ul>
-<li>R = red channel--, T = red channel++</li>
-<li>G = green channel--, H = green channel++</li>
-<li>B = blue channel--, N = blue channel++</li>
-<li>C = alpha--, V = alpha++</li>
+<li>R = red channel–, T = red channel++</li>
+<li>G = green channel–, H = green channel++</li>
+<li>B = blue channel–, N = blue channel++</li>
+<li>C = alpha–, V = alpha++</li>
 </ul></li>
 </ul></li>
 </ul></li>
@@ -121,5 +110,3 @@
 </ul></li>
 </ul></li>
 </ol>
-</body>
-</html>

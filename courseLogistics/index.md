@@ -29,9 +29,14 @@ CS4730 - Game Design Course Logistics
 
 - Graduate Student TAs:
 	- Ryan Kann [rak3me@virginia.edu](mailto:rak3me@virginia.edu)
+	- Monday 11-1pm
+	- Thursday 1-3pm
+	- Tuesday 1-3pm
 
 - Undergraduate TAs:
-	- TBD
+	- Helen: Monday 7-9pm on Zoom
+	- Sabrina: Monday 5-7pm on Zoom
+	- Saetbyull: Wednesday 10:00am-12:00pm
 
 
 <a name="TAs"></a>Office Hours
