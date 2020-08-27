@@ -1,6 +1,15 @@
 CS4730 - HW 1: Game Loop
 ===============================
 
+<a name="background"></a>Github Assignment Link
+---------------------------------------
+
+Every assignment has a **Github Classroom Link** you must follow to get the starter code (if applicable) and to create your repository for the assignment.
+
+**Assignment Invite Link**: [Homework 1 Invite](https://classroom.github.com/a/jI8iTx_6)
+
+Once your repository is configured, push your code to it in order to submit your work.
+
 <a name="background"></a>Background
 ---------------------------------------
 
