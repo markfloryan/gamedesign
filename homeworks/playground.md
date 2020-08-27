@@ -29,7 +29,7 @@ To investigate these things, you will go through the following three activites:
 
 As stated earlier, you will be using [Unity](https://unity.com/) for the remainder of the assignments. Unity is a popular cross-platform game engine that supports both 2D and 3D game development. We will mostly focus on 2D development in this class, but all of our lessons will translate to 3D quite easily. 
 
-To get started, go to the [Unity Store](https://store.unity.com/#plans-individual) and download a free version of the program. We went to the *individual* tab and used the *personal version*, though you can select the *student version* if you wish. We used **version 2019.3.14f1** when creating the assignments.
+To get started, go to the [Unity Store](https://unity3d.com/get-unity/download) and download Unity Hub. Once you have that downloaded, please open it up and install the latest version of **2019.4 (LTS)**. At the time of releasing this assignment, that is **2019.4.9f1**.
 
 Once Unity is installed, you'll need to get the starter code from the assignment on our [Github classroom](https://classroom.github.com/classrooms/68703978-cs-4730-game-design-fall-2020). You should be able to grab the starter code by visiting [this URL](https://classroom.github.com/a/jI8iTx_6). This should setup your repository. When you are ready for your assignment to be graded, simply push your code to that repository for the TA to grade.
 
