@@ -11,9 +11,10 @@ CS4730 - Game Design
 --------------------------------------- 
 
 - [What is a game?](./WhatIsAGame.pptx): What is a game? What are the defining features of games? Let's think about this and a few related issues.
+	- Reading: [Bartle's Player Types](../readings/Bartle_1996.pdf)
 
 - [History of Games](./HistoryOfGames.pptx): A brief history of gaming from the 1970s through today. A brief discussion of how the design of games has changed over the years.
-	- Reading: [Bartle's Player Types](../readings/Bartle_1996.pdf)
+	
 
 
 <a name="introduction"></a>Other

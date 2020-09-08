@@ -47,7 +47,7 @@ Your adventure will pass if you have each of the following five features impleme
 
 
 
-<a name="optional"></a>Optional Features ( points)
+<a name="optional"></a>Optional Features (10 points)
 ---------------------------------------
 
 If you'd like to use this assignment to make progress on the optional points portion of your grade, you may implement the following features:

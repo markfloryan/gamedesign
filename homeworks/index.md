@@ -6,6 +6,12 @@ CS4730 - Game Design
 
 Homeworks will be obtained and submitted using [Github Classroom](https://classroom.github.com). You can check out our [Github Classroom Tutorial](./githubclassroom.html) for a brief description of how to get setup and get started. After this is done, each individual homework assignment will contain an **Assignment Invite Link** that you will use to create your repository and access the starter code for that assignment.
 
+<a name="introduction"></a>Project Groups
+---------------------------------------
+
+The project groups have been established. You can look at them [here](./Fall2020-Groups.pdf). Let an instructor know if there are any issues.
+
+
 <a name="introduction"></a>Due Dates
 ---------------------------------------
 
