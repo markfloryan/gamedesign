@@ -34,7 +34,7 @@ The due dates for assignments are different depending on the type of assignment.
 - [HW 2: Playground / Solar System](./playground.html): Play around with Unity and make a couple of small demos showing off your new skills.
 	- **Recommended Due Date:** Thursday, October 8 at 11:59pm
 
-- HW 3: Animation: More Unity. Let's play with animations character control.
+- [HW 3: Animation](./animation.html): More Unity. Let's play with animations character control.
 	- **Recommended Due Date:** Thursday, October 15 at 11:59pm
 
 - HW 4: Cameras: Controlling cameras, parallaxing layers, and related features.
