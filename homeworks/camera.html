@@ -1,7 +1,82 @@
-<h1 id="cs4730---hw-4-camera">CS4730 - HW 4: Camera</h1>
-<h2 id="background"><a name="background"></a>Background</h2>
-<p>Unity info (if applicable) and other background needed for this hw</p>
-<h2 id="required-features"><a name="required"></a>Required Features</h2>
-<p>Description / tutorial for required features</p>
+<h1 id="cs4730---hw-4-camera-and-tweening">CS4730 - HW 4: Camera and Tweening</h1>
+<h2 id="github-assignment-link"><a name="background"></a>Github Assignment Link</h2>
+<p>Every assignment has a <strong>Github Classroom Link</strong> you must follow to get the starter code (if applicable) and to create your repository for the assignment. If you haven’t yet done so, follow the instructions at the <a href="./githubclassroom.html">Github Classroom Tutorial</a>.</p>
+<p><strong>Assignment Invite Link</strong>: <a href="https://classroom.github.com/a/1LG7hpuX">Homework 4 Invite</a></p>
+<p>Once your repository is configured, push your code to it in order to submit your work.</p>
+<h2 id="background-and-tutorials"><a name="background"></a>Background and Tutorials</h2>
+<p>In this assignment, we will begin by looking at simple camera controls in Unity. You will learn how to setup a camera and have it follow a character around the screen. You will also use investigate some simple techniques for setting up parallax layers.</p>
+<p>You will also learn a bit about <em>tweening</em>. Tweening is an effect in which the start and end points of a simple animation are defined and all of the states in between those points are calculated and animated on the fly.</p>
+<p>You should look over / use these resources while working on this assignment:</p>
+<ul>
+<li><a href="https://docs.unity3d.com/Manual/class-Camera.html">Camera documentation</a></li>
+<li><a href="https://docs.unity3d.com/Manual/2DSorting.html">2D Sorting</a></li>
+<li><a href="https://easings.net/">Easings</a></li>
+</ul>
+<h2 id="required-features-3-features.-33-to-pass"><a name="required"></a>Required Features (3 features. 3/3 to pass)</h2>
+<p>When you clone the repo, there will be a Unity project already present for you to start from. Your submission / demo must have the following required features added to that project:</p>
+<ul>
+<li><strong>Camera Controller</strong>
+<ul>
+<li>Open the “Camera” scene. Sayu (that is here name I suppose) will automatically begin moving to random positions when you press play.</li>
+<li>Modify the CameraController.cs script to smoothly follow the player
+<ul>
+<li>May not simply make the camera a child of the player. Must have smoothing</li>
+<li>Ensure that the player is always in view, even at high speeds</li>
+</ul></li>
+</ul></li>
+<li><strong>Basic Tweening System</strong>
+<ul>
+<li>Modify the Tween.cs script
+<ul>
+<li>In it, you will see a switch statement containing most of the commonly used easing functions</li>
+<li>Implement one easing function of each type (Sine, Quad, Cubic, Quart, Quint, Expo, Circ, Back, Elastic, and Bounce)</li>
+<li>Linear doesn’t count.</li>
+<li><img src="TweenCurves.png" style="width:70.0%" /></li>
+</ul></li>
+<li>Open the “Tweening” scene
+<ul>
+<li>Select BallManager GameObject and in the inspector select a ball sprite of your choice.</li>
+<li>Select the Ball component of each of the four balls and select a different easing function and duration for each.</li>
+</ul></li>
+</ul></li>
+<li><strong>Parallax</strong>
+<ul>
+<li>Open the “Parallax” scene</li>
+<li>Implement parallaxing in the <code>Parallax.cs</code> script based on some depth (recommended to use z position as a function of material offset)</li>
+<li>Take one of the background and foreground assets and have them parallax -</li>
+<li>Set up a background and foreground sorting layer and place objects in the appropriate sorting layer.</li>
+</ul></li>
+</ul>
 <h2 id="optional-features"><a name="optional"></a>Optional Features</h2>
-<p>Description / tutorial for optional features</p>
+<p>You can obtain the following optional points on this assignment:</p>
+<ul>
+<li><strong>Camera leading (1 point)</strong>
+<ul>
+<li>Bias the camera towards the player’s velocity</li>
+</ul></li>
+<li><strong>Separate background and foreground into their own cameras (2 points)</strong>
+<ul>
+<li>Cameras can be set up to only display certain layers. Set up one camera for foreground elements and one for background elements.</li>
+<li>This allows you to place the background elements elsewhere, at any scale, independent of the player camera, which is much cleaner and less obtrusive.</li>
+</ul></li>
+<li><strong>Moving parallax elements (1 point)</strong>
+<ul>
+<li>Allow certain objects (like clouds) to move independently through the background, adding onto the existing parallax movement.</li>
+</ul></li>
+<li><strong>Complete the easing functions (1 point)</strong>
+<ul>
+<li>Implement the easing functions you skipped over previously.</li>
+<li>3 for each type (In, Out, and InOut)</li>
+</ul></li>
+<li><strong>Expanded tweening library (2 points)</strong>
+<ul>
+<li>Add functionality for automatically lerping floats
+<ul>
+<li>In other words, the actual lerping should be done in the <code>ExecuteCoroutine</code> function in Tween.cs</li>
+</ul></li>
+<li>Add functionality for automatically lerping Vector3s and/or Vector2s
+<ul>
+<li>You will either need to modify the <code>ExecuteCoroutine</code> signature or make another one.</li>
+</ul></li>
+</ul></li>
+</ul>

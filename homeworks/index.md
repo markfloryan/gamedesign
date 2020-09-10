@@ -37,7 +37,7 @@ The due dates for assignments are different depending on the type of assignment.
 - [HW 3: Animation](./animation.html): More Unity. Let's play with animations character control.
 	- **Recommended Due Date:** Thursday, October 15 at 11:59pm
 
-- HW 4: Cameras: Controlling cameras, parallaxing layers, and related features.
+- [HW 4: Cameras](./camera.html): Controlling cameras, parallaxing layers, and related features.
 	- **Recommended Due Date:** Thursday, October 22 at 11:59pm
 
 - HW 5: Events and UI: Using events in Unity and building UI elements. 
