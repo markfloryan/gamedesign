@@ -23,7 +23,10 @@ CS4730 - Game Design
 	- [Wikipedia](https://en.wikipedia.org/wiki/Celeste_(video_game)) lists several awards and accolades for this game.
 
 - [MDA](./MDA.pptx): Mechanics, Dynamics, and Aesthetics in games. Let's start formalizing our discussion of how games are organized, designed, and discussed.
-	- Reading: [Original MDA Paper](../readings/MDA.pdf)	
+	- Reading: [Original MDA Paper](../readings/MDA.pdf)
+
+- [Formal Elements of Games](./FormalElements.pptx): A discussion/breakdown of the formal elements of games.
+	- Reading: [Formal Elements Chapter](../readings/fullerton-2008-formal-elements.pdf) from Tracy Fullerton.	
 
 
 <a name="introduction"></a>Other
