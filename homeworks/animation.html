@@ -16,17 +16,13 @@
 <p>To pass this assignment, add some functionality that allows a player to control the <em>player</em> sprite, an AI to control the <em>enemy</em> sprite, and setup some simple animations for each.</p>
 <p>The requirements for this assignment are:</p>
 <ul>
-<li><ol type="1">
-<li>Character Controller</li>
-</ol>
+<li><strong>Character Controller</strong>
 <ul>
 <li>Modify <code>PlatformerController.cs</code> to allow the player to move, jump, and get hit</li>
 <li>If the character is touched by the enemy, they <em>lose</em> (lose control / game over)</li>
 <li>Flip the sprite when moving left</li>
 </ul></li>
-<li><ol start="2" type="1">
-<li>Player Input</li>
-</ol>
+<li><strong>Player Input</strong>
 <ul>
 <li>Modify <code>PlayerInput.cs</code>
 <ul>
@@ -34,9 +30,7 @@
 <li>Space to jump</li>
 </ul></li>
 </ul></li>
-<li><ol start="3" type="1">
-<li>AI Input</li>
-</ol>
+<li><strong>AI Input</strong>
 <ul>
 <li>Modify <code>AIInput.cs</code>
 <ul>
@@ -44,9 +38,7 @@
 <li>If player is nearby, chase them</li>
 </ul></li>
 </ul></li>
-<li><ol start="4" type="1">
-<li>Character Animation</li>
-</ol>
+<li><strong>Character Animation</strong>
 <ul>
 <li>Set up an Animator Controller, and properly move between states depending on movement</li>
 <li>Tip: Split up the jump state into a jump state and a fall state. This allows you to easily play the jump animation only once and then automatically go to the fall animation (which can be just 1 frame of the end of the jump animation)</li>
@@ -54,17 +46,17 @@
 </ul>
 <h2 id="optional-features"><a name="optional"></a>Optional Features</h2>
 <ul>
-<li>Character Animator Override (1 point)
+<li><strong>Character Animator Override (1 point)</strong>
 <ul>
 <li>Find your own character sprite sheet and import it into the project</li>
 <li>Create new animations from this sprite sheet</li>
 <li>Create an Animator Override Controller, and replace the CharacterAnimator animations with the new ones while still using the same state machine structure.</li>
 </ul></li>
-<li>Controller Support (1 point)
+<li><strong>Controller Support (1 point)</strong>
 <ul>
 <li>Player is controllable with both keyboard and controller at the same time. Users can choose which to use.</li>
 </ul></li>
-<li>Tight Movement (1 point)
+<li><strong>Tight Movement (1 point)</strong>
 <ul>
 <li>If your player feels good to control, you get a point here</li>
 <li>Suggestions
@@ -74,11 +66,10 @@
 <li>Smoothing from idle to walking (don’t just hard set velocity)</li>
 </ul></li>
 </ul></li>
-<li>Custom Animator (6 points)
+<li><strong>Custom Animator (6 points)</strong>
 <ul>
-<li>Recreate the basic features of the Unity Animator system from scratch</li>
-<li>This is a big one, so partial credit is allowed depending on which of the following you implement</li>
-<li>State Controller (2 points)
+<li>Recreate the basic features of the Unity Animator system from scratch. This is a big one, so partial credit is allowed depending on which of the following you implement</li>
+<li><strong>State Controller (2 points)</strong>
 <ul>
 <li>Create a finite state machine system to support animations. Contains two basic components:
 <ol type="1">
@@ -86,7 +77,7 @@
 <li>Transitions - Edges. Connects two states, and provides boolean conditions for when the edge should be traversed from one state to another.</li>
 </ol></li>
 </ul></li>
-<li>Variables for state/animation transitions (2 points)
+<li><strong>Variables for state/animation transitions (2 points)</strong>
 <ul>
 <li>Variables
 <ul>
@@ -104,7 +95,7 @@
 </ul></li>
 </ul></li>
 </ul></li>
-<li>Animation class that takes in series of images and other metadata (1 point)
+<li><strong>Animation class that takes in series of images and other metadata (1 point)</strong>
 <ul>
 <li>Name</li>
 <li>List of sprites</li>
@@ -114,7 +105,7 @@
 <li>if true, will repeat endlessly when in an active state. If false, will stop after one cycle.</li>
 </ul></li>
 </ul></li>
-<li>Demonstration of working features (1 point)
+<li><strong>Demonstration of working features (1 point)</strong>
 <ul>
 <li>Requires completion of all of the above</li>
 <li>Create a scene demonstrating that Sayu can be idle, walk, or jump with your animation system.</li>

@@ -9,7 +9,7 @@ Homeworks will be obtained and submitted using [Github Classroom](https://classr
 <a name="introduction"></a>Project Groups
 ---------------------------------------
 
-The project groups have been established. You can look at them [here](./Fall2020-Groups.pdf). Let an instructor know if there are any issues.
+The project groups have been established. You can look at them [here](https://docs.google.com/spreadsheets/d/1LQzdQhP_CUSiB4hJJe648FbO1H6k6gxNTtdrwrnIqKo/edit?usp=sharing). Let an instructor know if there are any issues.
 
 
 <a name="introduction"></a>Due Dates
