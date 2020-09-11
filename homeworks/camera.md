@@ -6,7 +6,7 @@ CS4730 - HW 4: Camera and Tweening
 
 Every assignment has a **Github Classroom Link** you must follow to get the starter code (if applicable) and to create your repository for the assignment. If you haven't yet done so, follow the instructions at the [Github Classroom Tutorial](./githubclassroom.html).
 
-**Assignment Invite Link**: [Homework 4 Invite](https://classroom.github.com/a/1LG7hpuX)
+**Assignment Invite Link**: COMING SOON
 
 Once your repository is configured, push your code to it in order to submit your work.
 
