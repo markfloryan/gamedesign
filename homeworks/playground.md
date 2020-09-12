@@ -40,8 +40,10 @@ Once Unity is installed, you'll need to get the starter code from the assignment
 This assignment is made up of three individual tasks. Each one must be completed for the entire assignment to pass.
 
 1. **Tutorials**: Unity provides many [tutorial](https://learn.unity.com/) on the complicated engine. Start by completing three short tutorials.
-	- Complete ONE of the basic microgame tutorials: You can choose the [Platformer Microgame](https://learn.unity.com/project/2d-platformer-template?courseId=5c59cf22edbc2a001f59aa5d), the [FPS Microgame](https://learn.unity.com/project/fps-template?courseId=5c59cf22edbc2a001f59aa5d), or the [Karting Microgame](https://learn.unity.com/project/karting-template?courseId=5c59cf22edbc2a001f59aa5d).
-	- When you are done, push images of the completed tutorials to your repository (the rest is on your honor).
+	1) Complete ONE of the basic microgame tutorials: You can choose the [Platformer Microgame](https://learn.unity.com/project/2d-platformer-template?courseId=5c59cf22edbc2a001f59aa5d), the [FPS Microgame](https://learn.unity.com/project/fps-template?courseId=5c59cf22edbc2a001f59aa5d), or the [Karting Microgame](https://learn.unity.com/project/karting-template?courseId=5c59cf22edbc2a001f59aa5d).
+	2) Complete the [Beginner Scripting Tutorial](https://learn.unity.com/project/beginner-gameplay-scripting)
+	3) Complete the [Intermediate Scripting Tutorial](https://learn.unity.com/project/intermediate-gameplay-scripting) 
+    - When you are done, push images of the completed tutorials to your repository (the rest is on your honor).
 
 
 
