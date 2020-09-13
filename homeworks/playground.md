@@ -6,7 +6,7 @@ CS4730 - HW 2: Playground
 
 Every assignment has a **Github Classroom Link** you must follow to get the starter code (if applicable) and to create your repository for the assignment. If you haven't yet done so, follow the instructions at the [Github Classroom Tutorial](./githubclassroom.html).
 
-**Assignment Invite Link**: [Homework 2 Invite](https://classroom.github.com/a/wUZzWtVt)
+**Assignment Invite Link**: [HW 2 Invite Link](https://classroom.github.com/a/sdTZ3VRO)
 
 Once your repository is configured, push your code to it in order to submit your work.
 
