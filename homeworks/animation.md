@@ -6,7 +6,11 @@ CS4730 - HW 3: Character Controller and Animation
 
 Every assignment has a **Github Classroom Link** you must follow to get the starter code (if applicable) and to create your repository for the assignment. If you haven't yet done so, follow the instructions at the [Github Classroom Tutorial](./githubclassroom.html).
 
+<<<<<<< HEAD
 **Assignment Invite Link**: [HW 3 Invite Link](https://classroom.github.com/a/StdKHFWX)
+=======
+**Assignment Invite Link**: [Homework 3 Invite](https://classroom.github.com/a/StdKHFWX)
+>>>>>>> 565b1ea4435a87582ee0784bf6d79746de29b6a2
 
 Once your repository is configured, push your code to it in order to submit your work.
 
