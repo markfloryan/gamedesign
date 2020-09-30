@@ -28,6 +28,12 @@ CS4730 - Game Design
 - [Formal Elements of Games](./FormalElements.pptx): A discussion/breakdown of the formal elements of games.
 	- Reading: [Formal Elements Chapter](../readings/fullerton-2008-formal-elements.pdf) from Tracy Fullerton.	
 
+- [The Game Loop](./GameArchitecture.pptx): Short introduction to the game loop, frames per second, dealing with time in games, etc.
+	- Reading: [Short discussion of game loop architectures](https://www.informit.com/articles/article.aspx?p=2167437&seqNum=2). Make sure to click through to pages 2, 3, and 4 for more info.
+
+- [Sprites and Transforms](./Sprites.pptx): Discussion of Sprites, their properties, coordinate spaces and converting between them, and affine transforms in games.
+
+
 
 <a name="introduction"></a>Other
 --------------------------------------- 
