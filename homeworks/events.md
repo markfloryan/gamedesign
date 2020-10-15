@@ -7,7 +7,7 @@ CS4730 - HW 5: Events and UI
 
 Every assignment has a **Github Classroom Link** you must follow to get the starter code (if applicable) and to create your repository for the assignment. If you haven't yet done so, follow the instructions at the [Github Classroom Tutorial](./githubclassroom.html).
 
-**Assignment Invite Link**: COMING SOON
+**Assignment Invite Link**: [HW 5 Invite Link](https://classroom.github.com/a/6HFGQiFE)
 
 Once your repository is configured, push your code to it in order to submit your work.
 
@@ -18,7 +18,7 @@ Once your repository is configured, push your code to it in order to submit your
 ---------------------------------------
 
 For this assignment, you will produce small demos that show basic functionality for menus, simple events (opening a door), and UI elements. You might want to peruse the following resources as you work on your assignment:
-
+- [Main Menu Tutorial](https://www.youtube.com/watch?v=zc8ac_qUXQY)
 - [UI Toolkits](https://docs.unity3d.com/Manual/UIToolkits.html)
 - [Unity Events](https://docs.unity3d.com/Manual/UnityEvents.html)
 - [Scene Manager](https://docs.unity3d.com/ScriptReference/SceneManagement.SceneManager.html)
@@ -48,12 +48,15 @@ These required features are meant to force you to implement very simple versions
 
 - **Counting Jumps**
   - Open the `JumpCounting` scene. In it, a box jumps every time you press space.
-  - Add a UI element for indicating the number of jumps.
-  - Modify the `JumpyBox.cs` script on the Box GameObject 
-    - Add a `UnityEvent<int>` and an integer to count the number of jumps.
-    - Every time the player pressed space, the jump counter should go up, and the jump event should be triggered passing in the new jump count.
-    - Subscribe the UI to the event to update its text every time a jump occurs. 
-
+  - Modify the `JumpBox.cs` script on the Box GameObject 
+    - Add a `UnityEvent<int>` to be trigger On Jump and an `int` to count the number of jumps.
+    - Every time the player pressed space, the On Jump event should fire, passing in the jump count
+    - Subscribe the UI to the event to update its text every time a jump occurs.
+  - Add a text UI element for indicating the number of jumps.
+    - Give it the `JumpUI.cs` script component, and create a function with the signature `void UpdateJumpUI (int count)`. This function should update the text to count.
+    - Get a reference to the JumpBox script and subscribe UpdateJumpUI to the On Jump event.
+  - Subscribe something else to the On Jump event. This can be anything you want, and will likely involve creating your own script to subscribe it to the event.
+    - Note: Must be obvious for the purposes of grading. Some ideas include: confetti explosion, sound effect, post processing effect, camera shake, etc. Get creative!
 
 <a name="optional"></a>Optional Features
 ---------------------------------------
@@ -77,4 +80,5 @@ There are 8 optional points available through this assignment.
 - **Text Mesh Pro (1 point)**
   - For all applicable UI elements, use TextMeshPro (TMP) instead of the standard UI.
   - The difference is that TMP converts UI to a mesh, allowing it to scale infinitely without getting blurry.
+  - This should be trivial. If a UI element has two variants, use the one that says TextMeshPro.
 

@@ -30,7 +30,7 @@ You should look over / use these resources while working on this assignment:
 When you clone the repo, there will be a Unity project already present for you to start from. Your submission / demo must have the following required features added to that project:
 
 - **Camera Controller**
-    - Open the “Camera” scene. Sayu (that is here name I suppose) will automatically begin moving to random positions when you press play.
+    - Open the “Camera” scene. Sayu will automatically begin moving to random positions when you press play.
     - Modify the CameraController.cs script to smoothly follow the player
       - May not simply make the camera a child of the player. Must have smoothing
       - Ensure that the player is always in view, even at high speeds
