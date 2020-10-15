@@ -33,6 +33,13 @@ CS4730 - Game Design
 
 - [Sprites and Transforms](./Sprites.pptx): Discussion of Sprites, their properties, coordinate spaces and converting between them, and affine transforms in games.
 
+- [Display Hierarchy](./DisplayHierarchy.pptx): Discussion of display trees and how transforms are used to create hierarchical behavior in games.
+
+- [Character Design](./CharacterDesign.pptx): Short discussion regarding character controls and programming.
+
+- [Enemy Design](./EnemyDesign.pptx): Description of designing enemies and NPCs using state machines.
+
+- [Collision Detection](./CollisionDetection.pptx): The basics of detecting and resolving collisions in games.
 
 
 <a name="introduction"></a>Other
