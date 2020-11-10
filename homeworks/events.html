@@ -4,13 +4,7 @@
 <p><strong>Assignment Invite Link</strong>: <a href="https://classroom.github.com/a/6HFGQiFE">HW 5 Invite Link</a></p>
 <p>Once your repository is configured, push your code to it in order to submit your work.</p>
 <h2 id="background-and-resources"><a name="background"></a>Background and Resources</h2>
-<p>For this assignment, you will produce small demos that show basic functionality for menus, simple events (opening a door), and UI elements. You might want to peruse the following resources as you work on your assignment:</p>
-<ul>
-<li><a href="https://docs.unity3d.com/Manual/UIToolkits.html">UI Toolkits</a></li>
-<li><a href="https://docs.unity3d.com/Manual/UnityEvents.html">Unity Events</a></li>
-<li><a href="https://docs.unity3d.com/ScriptReference/SceneManagement.SceneManager.html">Scene Manager</a></li>
-<li><a href="https://docs.unity3d.com/ScriptReference/Coroutine.html">Coroutines</a></li>
-</ul>
+<p>For this assignment, you will produce small demos that show basic functionality for menus, simple events (opening a door), and UI elements. You might want to peruse the following resources as you work on your assignment: - <a href="https://www.youtube.com/watch?v=zc8ac_qUXQY">Main Menu Tutorial</a> - <a href="https://docs.unity3d.com/Manual/UIToolkits.html">UI Toolkits</a> - <a href="https://docs.unity3d.com/Manual/UnityEvents.html">Unity Events</a> - <a href="https://docs.unity3d.com/ScriptReference/SceneManagement.SceneManager.html">Scene Manager</a> - <a href="https://docs.unity3d.com/ScriptReference/Coroutine.html">Coroutines</a></p>
 <h2 id="required-features-3-features-33-to-pass"><a name="required"></a>Required Features (3 features, 3/3 to pass)</h2>
 <p>These required features are meant to force you to implement very simple versions of common game elements. These can easily be expanded to more complicated elements in your game projects.</p>
 <ul>
@@ -41,25 +35,21 @@
 <li><strong>Counting Jumps</strong>
 <ul>
 <li>Open the <code>JumpCounting</code> scene. In it, a box jumps every time you press space.</li>
-<li>Add a UI element for indicating the number of jumps.</li>
-<li>Modify the <code>JumpyBox.cs</code> script on the Box GameObject
+<li>Modify the <code>JumpBox.cs</code> script on the Box GameObject
 <ul>
-<li>Add a <code>UnityEvent&lt;int&gt;</code> and an <code>int</code> to count the number of jumps.</li>
-<li>Every time the player pressed space, the On Jump event should fire, passing in the jump count.</li>
+<li>Add a <code>UnityEvent&lt;int&gt;</code> to be trigger On Jump and an <code>int</code> to count the number of jumps.</li>
+<li>Every time the player pressed space, the On Jump event should fire, passing in the jump count</li>
 <li>Subscribe the UI to the event to update its text every time a jump occurs.</li>
-</ul>
-
-<li>Add a text UI element for indicating the number of jumps.</li>
+</ul></li>
+<li>Add a text UI element for indicating the number of jumps.
 <ul>
 <li>Give it the <code>JumpUI.cs</code> script component, and create a function with the signature <code>void UpdateJumpUI (int count)</code>. This function should update the text to count.</li>
 <li>Get a reference to the JumpBox script and subscribe UpdateJumpUI to the On Jump event.</li>
-<li>Subscribe something else to the On Jump event. This can be anything you want, and will likely involve creating your own script to subscribe it to the event.</li>
+</ul></li>
+<li>Subscribe something else to the On Jump event. This can be anything you want, and will likely involve creating your own script to subscribe it to the event.
 <ul>
 <li>Note: Must be obvious for the purposes of grading. Some ideas include: confetti explosion, sound effect, post processing effect, camera shake, etc. Get creative!</li>
-</ul>
-</ul>
-
-</li>
+</ul></li>
 </ul></li>
 </ul>
 <h2 id="optional-features"><a name="optional"></a>Optional Features</h2>

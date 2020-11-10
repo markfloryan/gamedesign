@@ -1,0 +1,152 @@
+<h1 id="cs4730---hw-6-optional-low-level-game-programming">CS4730 - HW 6 (OPTIONAL): Low Level Game Programming</h1>
+<h2 id="background-and-tutorials"><a name="background"></a>Background and Tutorials</h2>
+<p>In this assignment, we will give you the opportunity to delve deeper into the fundamentals of game programming by overwriting existing systems in Unity. This entire assignment is optional, and you can get partial credit for each section.</p>
+<p>You should review the Game Programming lectures.</p>
+<h2 id="optional-features"><a name="optional"></a>Optional Features</h2>
+<p>You can obtain the following optional points on this assignment:</p>
+<ul>
+<li><strong>Collision System (10 points)</strong>
+<ul>
+<li>CustomCircleCollider2D Collision Detection (1 point)
+<ul>
+<li>Emulate the functionality of the CircleCollider2D component</li>
+<li>Parameters
+<ul>
+<li>trigger (bool)
+<ul>
+<li>Used for deciding whether to resolve collisions or not</li>
+</ul></li>
+<li>radius (float)</li>
+<li>offset (Vector2)
+<ul>
+<li>from the origin of the object in LOCAL space</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>CustomBoxCollider2D Collision Detection (1 point)
+<ul>
+<li>Emulate the funcionality of the BoxCollider2D component</li>
+<li>Parameters
+<ul>
+<li>trigger (bool)
+<ul>
+<li>Used for deciding whether to resolve collisions or not</li>
+</ul></li>
+<li>size (Vector2)
+<ul>
+<li>Width and height</li>
+</ul></li>
+<li>offset (Vector2)
+<ul>
+<li>from the origin of the object in LOCAL space</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>OnCollision Events (2 points)
+<ul>
+<li>Create events for
+<ul>
+<li><code>OnCollisionEnter2D(CustomCollider2D other)</code></li>
+<li><code>OnCollisionStay2D(CustomCollider2D other)</code></li>
+<li><code>OnCollisionExit2D(CustomCollider2D other)</code></li>
+</ul></li>
+<li>External scripts should be able to reference the Custom Collider and subscribe to these events</li>
+</ul></li>
+<li>Composite Colliders (2 points)
+<ul>
+<li>For any object, allow it to be composed of many colliders</li>
+<li>Object should not register collisions with itself</li>
+<li>OnCollision Events should only trigger once per Composite Collider
+<ul>
+<li>In other words, entering 2 different colliders in one object should not call OnCollisionEnter2D twice unless it first stopped intersecting with ALL colliders first.</li>
+</ul></li>
+</ul></li>
+<li>Optimization (5 points)
+<ul>
+<li>Optimize your collision resolution with a quad-tree data structure</li>
+</ul></li>
+</ul></li>
+<li><strong>Physics Engine (5 points)</strong>
+<ul>
+<li>CustomRigidbody2D (5 points)
+<ul>
+<li>Emulate the functionality of the Rigidbody2D component</li>
+<li>Parameters
+<ul>
+<li>mass (float)
+<ul>
+<li>default 1.0f</li>
+</ul></li>
+<li>gravityScale (float)
+<ul>
+<li>default 9.81f</li>
+</ul></li>
+<li>gravity (Vector2)
+<ul>
+<li>default Vector2.down</li>
+<li>Always normalize such that gravityScale truly represents acceleration</li>
+</ul></li>
+<li>velocity (Vector2)
+<ul>
+<li>default Vector2.zero</li>
+<li>every frame, assuming no collisions, <code>transform.position += velocity * Time.deltaTime</code></li>
+</ul></li>
+</ul></li>
+<li>Collision Resolution
+<ul>
+<li>Requires completion of collision detection from the Collision System portion</li>
+<li>After position calculations, recalculate position if overlapping with a collider</li>
+<li>Separate the velocities of the object into 2 components
+<ul>
+<li>The velocity parallel to the normal vector of the collision should be adjusted</li>
+<li>The velocity perpendicular to the normal vector of the collision should remain unaffected</li>
+<li>Think of the Mario sliding up a box example from lecture</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Shaders (5 points)</strong>
+<ul>
+<li>Feel free to use ShaderGraph or normal shaders, in 2D or 3D
+<ul>
+<li>If using ShaderGraph, you need to use URP</li>
+</ul></li>
+<li>Fresnel Shader (1 point)
+<ul>
+<li>Create a shader that outlines the object with a Fresnel effect</li>
+<li>Create a property that changes the power of the Fresnel effect</li>
+<li>Create a Color property that changes the color of the outline</li>
+</ul></li>
+<li>Dissolve Shader (1 point)
+<ul>
+<li>Create a shader that utilizes a noise map and alpha clip thresholds to dissolve the object based on some disolve value (0-1)</li>
+</ul></li>
+<li>Ripple Shader (1 point)
+<ul>
+<li>Create a shader that deforms the mesh with a water-like ripple over time</li>
+</ul></li>
+<li>Toon Shader (2 point)
+<ul>
+<li>Hard outline of adjustable size (like Fresnel but without a gradient)</li>
+<li>3 thresholded shading levels
+<ul>
+<li>shaded/dark</li>
+<li>standard</li>
+<li>specular (white spot)
+<ul>
+<li>must be with respect to some arbitrary light source (can be a hard-set vector) and the camera positions</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Game Report (6 points)</strong>
+<ul>
+<li>Must be at least 10 paragraphs.</li>
+<li>Discuss the Mechanics, Dynamics, and Aesthetics.
+<ul>
+<li>Provide specific examples</li>
+<li>Graphics and images of what you’re talking about helps a lot!</li>
+</ul></li>
+<li>1 point if you write it in Latex ;)</li>
+</ul></li>
+</ul>
