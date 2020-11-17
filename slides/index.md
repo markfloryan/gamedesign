@@ -41,6 +41,14 @@ CS4730 - Game Design
 
 - [Collision Detection](./CollisionDetection.pptx): The basics of detecting and resolving collisions in games.
 
+- [Events](./ObserverDesignPattern.pptx): Software design of event systems and how they relate to game development.
+
+- [Level Design](./LevelDesign.pptx): Ruminations on the design of levels with examples.
+
+- [Actions and Interactions](./ActionInteraction.pptx): Actions and interactions in games.
+
+- [Game Balance](./GameBalancing.pptx): Overview of reinforcement/feedback, stability, and how to balance games.
+
 
 <a name="introduction"></a>Other
 --------------------------------------- 
