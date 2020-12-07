@@ -49,6 +49,7 @@ CS4730 - Game Design
 
 - [Game Balance](./GameBalancing.pptx): Overview of reinforcement/feedback, stability, and how to balance games.
 
+- [Randomness](./ProbabilityAndRisk.pptx): Overview of how randomness plays a role in game design.
 
 <a name="introduction"></a>Other
 --------------------------------------- 
