@@ -41,7 +41,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "d3": "^5.5.0",
+    "d3": "^7.6.1",
     "reveal.js-d3js": "^1.0.0"
   }
 }
